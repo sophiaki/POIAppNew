@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sophia.poiappnew.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/logo_1" />
+
+        <TextView
+            android:id="@+id/textMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_mail_input" />
+
+        <EditText
+            android:id="@+id/inputMailAdress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/register_mail_input" />
+
+        <TextView
+            android:id="@+id/textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_password" />
+
+        <EditText
+            android:id="@+id/inputPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:text="@string/register_password" />
+
+        <Button
+            android:id="@+id/email_sign_in_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/action_sign_in"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/facebookSignIn"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#3b5998"
+            android:text="@string/action_sign_in_facebook"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/link_register"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
