@@ -1,23 +1,24 @@
 <resources>
-<!-- Strings related to headers -->
-<string name="app_name">POI</string>
-<string name="app_name_login">Login</string>
-<string name="app_name_register">Register</string>
+    <!-- Strings related to headers -->
+    <string name="app_name">POI</string>
+    <string name="app_name_login">Login</string>
+    <string name="app_name_register">Register</string>
 
     <!-- Strings related to login -->
-<string name="prompt_email">E-Mail</string>
-<string name="prompt_password">Password (optional)</string>
-<string name="action_sign_in">Sign in or register</string>
-<string name="action_sign_in_short">Sign in</string>
-<string name="action_sign_in_facebook">Sign in with Facebook</string>
-<string name="link_register">Not registered yet? Register here</string>
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_in_facebook">Sign in with Facebook</string>
+    <string name="link_register">Not registered yet? Register here</string>
 
     <!-- Strings related to register -->
-<string name="register_first_name">First Name</string>
-<string name="register_last_name">Last Name</string>
-<string name="register_mail_input">E-Mail</string>
-<string name="register_mail_hint">We\'ll never share your e-mail address with anyone else.</string>
-<string name="register_password">Password</string>
-<string name="register_password_repeat">Confirm Password</string>
-<string name="btn_register">Register now</string>
+    <string name="register_first_name">First Name</string>
+    <string name="register_last_name">Last Name</string>
+    <string name="register_mail_input">E-Mail</string>
+    <string name="register_mail_hint">We\'ll never share your e-mail address with anyone else.</string>
+    <string name="register_password">Password</string>
+    <string name="register_password_repeat">Confirm Password</string>
+    <string name="btn_register">Register now</string>
+    <string name="title_activity_register">RegisterActivity</string>
 </resources>
